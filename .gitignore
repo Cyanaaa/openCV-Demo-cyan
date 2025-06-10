@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.joblib
+
+# Data
+dataset_clean/
+videos/
+*.mp4
+*.avi
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
