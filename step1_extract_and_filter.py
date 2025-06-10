@@ -11,7 +11,7 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True)
 
 label_map = {"stand": 0, "sit": 1, "lie": 2}
-frame_interval = 5  # 每隔多少帧提取一次
+frame_interval = 1  # 每隔多少帧提取一次
 
 def has_valid_pose(image):
     results = pose.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
